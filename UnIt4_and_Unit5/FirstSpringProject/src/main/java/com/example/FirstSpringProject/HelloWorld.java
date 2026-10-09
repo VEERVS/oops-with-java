@@ -1,12 +1,12 @@
+
 package com.example.FirstSpringProject;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class HelloWorld {
 
-
-    public void display(){
-        System.out.println("Hello World");
+    public String display() {
+        return "Hello, World!";
     }
 }

@@ -1,5 +1,5 @@
 
-package controller;
+package com.example.Student.controller;
 
 import java.util.ArrayList;
 import java.util.List;
